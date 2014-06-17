@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+
+	"name": "Unfeed",
+	"description": "This extension deconstructs the facebook newsfeed at 
+					a fundamental level. What kind of experience occurs
+					when we remove or even substitute information critical
+					to the typical newsfeed environement?",
+	"version": "0.1a"
+}
