@@ -1,21 +1,21 @@
 {
-	"manifest_version": 2,
+  "manifest_version": 2,
 
-	"name": "Unfeed",
-	"description": "This extension information critical
-									to the typical newsfeed environement
-									including profile name and pictures.",
-	"version": "1.0",
+  "name": "Unfeed",
+  "description": "This extension information critical
+                  to the typical newsfeed environement
+                  including profile name and pictures.",
+  "version": "1.0",
 
-	"content_scripts": [
+  "content_scripts": [
     {
       "matches": ["https://www.facebook.com/*"],
       "js": ["unfeed.js"]
     }
-	],
+  ],
   
-	"permissions": [
-		"https://www.facebook.com/"
-	]
+  "permissions": [
+    "https://www.facebook.com/"
+  ]
 }
 
