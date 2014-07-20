@@ -2,9 +2,20 @@
 	"manifest_version": 2,
 
 	"name": "Unfeed",
-	"description": "This extension deconstructs the facebook newsfeed at 
-					a fundamental level. What kind of experience occurs
-					when we remove or even substitute information critical
-					to the typical newsfeed environement?",
-	"version": "0.1a"
+	"description": "This extension information critical
+									to the typical newsfeed environement
+									including profile name and pictures.",
+	"version": "1.0",
+
+	"content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["unfeed.js"]
+    }
+	],
+  
+	"permissions": [
+		"https://www.facebook.com/"
+	]
 }
+
